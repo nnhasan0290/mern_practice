@@ -1,5 +1,6 @@
 import Callback from "./components/Callback";
 import { ContextConsumer } from "./components/ContextReducer";
+import Memo from "./components/Memo";
 
 const App = () => {
   const { state, dispatch } = ContextConsumer();
@@ -9,6 +10,7 @@ const App = () => {
       <h2>This is applciation</h2>
      
      <Callback/>
+     <Memo/>
     </div>
   );
 };
